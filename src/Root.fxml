@@ -12,7 +12,6 @@
 	<spacing>10</spacing>
 	<children>
 		<TextField prefWidth="200" />
-		
 		<Button text = "확인" /> 
 	</children>
 </HBox>
