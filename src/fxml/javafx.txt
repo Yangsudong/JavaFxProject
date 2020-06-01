@@ -1,0 +1,19 @@
+Main : ButtonMain.java
+Control : ButtonControl.fxml
+Controller : ButtonController.java
+
+
+
+
+Main class : AppRoot.java
+	start() -> primaryStage
+
+Control class : Root.fxml
+fxml -> UI
+
+Controller class : RootController.java
+	Controller(event)
+
+		UI	Main	start
+Java	Main		Control
+		Evnet	Controller
