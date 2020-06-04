@@ -17,6 +17,7 @@ public class Board {
 		this.content = new SimpleStringProperty(content);
 	}
 
+	// title
 	public void setTitle(String title) {
 		this.title.set(title);
 	}
@@ -25,10 +26,24 @@ public class Board {
 		return this.title.get();
 	}
 
-	public SimpleStringProperty smartTitle() {
+	public SimpleStringProperty titleProperty() {
 		return this.title;
 	}
 
+	// password
+	public void password(String password) {
+		this.password.set(password);
+	}
+
+	public String getPassword() {
+		return this.password.get();
+	}
+
+	public SimpleStringProperty titlePassword() {
+		return this.password;
+	}
+
+	// publicity
 	public void setPublicity(String publicity) {
 		this.publicity.set(publicity);
 	}
@@ -40,7 +55,8 @@ public class Board {
 	public SimpleStringProperty publicityProperty() {
 		return this.publicity;
 	}
-	
+
+	// exitDate
 	public void setExitDate(String exitDate) {
 		this.exitDate.set(exitDate);
 	}
@@ -53,6 +69,7 @@ public class Board {
 		return this.exitDate;
 	}
 	
+	// content
 	public void setContent(String content) {
 		this.content.set(content);
 	}
@@ -64,5 +81,5 @@ public class Board {
 	public SimpleStringProperty contentProperty() {
 		return this.content;
 	}
-	
+
 }

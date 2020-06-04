@@ -31,7 +31,7 @@ public class ViewController implements Initializable {
 		list.add("GalaxyS7");
 		listView.setItems(list); 
 		
-		// listView에서 클리시 tableView에서도 선택되게함
+		// listView에서 클릭시 tableView에서도 선택되게함
 		listView.getSelectionModel().selectedIndexProperty().addListener
 		(new ChangeListener<Number>() {
 			@Override
