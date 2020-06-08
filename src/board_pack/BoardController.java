@@ -29,8 +29,7 @@ import view_pack.Phone;
 public class BoardController implements Initializable {
 	Connection conn;
 
-	@FXML
-	TableView<Board> tableView;
+	@FXML TableView<Board> tableView;
 	@FXML TextField title;
 	@FXML TextField exitDate;
 	@FXML ComboBox<String> publicity;
